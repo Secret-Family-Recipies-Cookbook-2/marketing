@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Contrail One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Contrail One'), local('ContrailOne-Regular'), url(https://fonts.gstatic.com/s/contrailone/v9/eLGbP-j_JA-kG0_Zo51noafdZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ96A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DF7_.ttf) format('truetype');
+}
 /* blank file */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -146,6 +167,28 @@ body {
   height: 100%;
   background-image: url('http://www.overtapped.com/bgA14.png');
 }
+nav {
+  width: 100%;
+  display: flex;
+  padding: 0 2%;
+  justify-content: space-between;
+}
+nav button {
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+  background-color: #DCAAFF;
+  border-color: #DCAAFF;
+}
 /* blank file */
-/* blank file */
-/* blank file */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .topImage {
+  padding: 1%;
+}

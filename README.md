@@ -11,3 +11,8 @@ Organized .less files in 'index.less'
 
 Created basic layout for header on index.html, have not styled yet
 Created blank 'about.html' page
+
+## Updates @ May 26, 2020 11:25 am
+Styled header and nav buttons
+Imported some fonts from Google to use
+Buttons currently non-functional
