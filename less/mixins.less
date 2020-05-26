@@ -1,1 +1,18 @@
-/* blank file */
+.customDiv(@wide, @high, @radii, @bgColor) {
+    width: @wide;
+    height: @high;
+    border-radius: @radii;
+    background: @bgColor;
+}
+
+.flexJ(@direct, @justified) {
+    display: flex;
+    flex-direction: @direct;
+    justify-content: @justified;
+}
+
+.flexA(@directed, @alignment) {
+    display: flex;
+    flex-direction: @directed;
+    align-items: @alignment;
+}
