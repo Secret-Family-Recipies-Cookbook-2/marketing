@@ -25,3 +25,6 @@ Created styling for each section
 Finished sections on 'index.html'
 Darkened the black translucent boxes a bit to allow text to be a little more visible
 Starting footer.
+
+## Updates @ May 26, 1:05 pm
+Created and styled footer in 'index.html'

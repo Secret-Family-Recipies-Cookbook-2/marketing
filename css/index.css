@@ -209,7 +209,18 @@ nav button {
   background-color: #DCAAFF;
   border-color: #DCAAFF;
 }
-/* blank file */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2%;
+  background: #3F3F44;
+  color: #FF5200;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.17rem;
+}
 header {
   width: 100%;
   display: flex;
