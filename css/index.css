@@ -26,7 +26,6 @@
   font-display: swap;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
-/* blank file */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -177,11 +176,11 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 p {
@@ -248,35 +247,57 @@ section p {
 section div {
   width: 40%;
   height: auto;
-  padding: 2%;
   border-radius: 20px;
   background: #000000aa;
+  padding: 2%;
 }
 .tagline {
   color: #000080;
   text-align: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 .tagline div {
-  width: 70%;
+  width: 60%;
   height: auto;
-  border: 2px solid #DCAAFF;
   border-radius: 30px;
   background: #FFFFFF;
+  border: 2px solid #DCAAFF;
 }
 .topSection {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   padding: 2%;
 }
 .midSection {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding: 2%;
 }
 .lowSection {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   padding: 2%;
+}
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.aboutSection div {
+  width: 70%;
+  height: 300px;
+  border-radius: 50%;
+  background: #80000080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 10%;
+}
+.aboutSection p {
+  font-size: 1.4rem;
 }
