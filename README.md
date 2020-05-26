@@ -20,3 +20,8 @@ Buttons currently non-functional
 ## Updates @ May 26, 2020 12:25 pm
 Started on various Sections for body of index.html
 Created styling for each section
+
+## Updates @ May 26, 2020 12:40 pm
+Finished sections on 'index.html'
+Darkened the black translucent boxes a bit to allow text to be a little more visible
+Starting footer.

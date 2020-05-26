@@ -233,7 +233,7 @@ section div {
   height: auto;
   padding: 2%;
   border-radius: 20px;
-  background: #00000080;
+  background: #000000aa;
 }
 .tagline {
   color: #000080;
@@ -245,6 +245,7 @@ section div {
   width: 70%;
   height: auto;
   border: 2px solid #DCAAFF;
+  border-radius: 30px;
   background: #FFFFFF;
 }
 .topSection {
