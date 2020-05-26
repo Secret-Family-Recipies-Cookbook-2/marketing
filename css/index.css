@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'Contrail One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Contrail One'), local('ContrailOne-Regular'), url(https://fonts.gstatic.com/s/contrailone/v9/eLGbP-j_JA-kG0_Zo51noafdZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ96A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DF7_.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+/* blank file */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.container {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  background-image: url('../images/bgA14.png');
+}
+.aboutContainer {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  background-image: url('../images/bgA17.png');
+}
+nav {
+  width: 100%;
+  display: flex;
+  padding: 0 2%;
+  justify-content: space-between;
+}
+nav button {
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+  background-color: #DCAAFF;
+  border-color: #DCAAFF;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2%;
+  background: #3F3F44;
+  color: #FF5200;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.17rem;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .topImage {
+  padding: 1%;
+}
+section {
+  width: 100%;
+}
+section h3 {
+  color: #CC0000;
+}
+section p {
+  color: #FFFFFF;
+}
+section div {
+  width: 40%;
+  height: auto;
+  padding: 2%;
+  border-radius: 20px;
+  background: #000000aa;
+}
+.tagline {
+  color: #000080;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.tagline div {
+  width: 70%;
+  height: auto;
+  border: 2px solid #DCAAFF;
+  border-radius: 30px;
+  background: #FFFFFF;
+}
+.topSection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+}
+.midSection {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.lowSection {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+}
