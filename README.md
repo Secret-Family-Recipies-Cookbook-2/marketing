@@ -16,3 +16,7 @@ Created blank 'about.html' page
 Styled header and nav buttons
 Imported some fonts from Google to use
 Buttons currently non-functional
+
+## Updates @ May 26, 2020 12:25 pm
+Started on various Sections for body of index.html
+Created styling for each section

@@ -19,6 +19,13 @@
   font-display: swap;
   src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v8/vm8vdRfvXFLG3OLnsO15WYS5DF7_.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
 /* blank file */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -161,6 +168,26 @@ body {
   background-color: #000000;
   height: 100vh;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
 .container {
   position: relative;
   width: 1000px;
@@ -191,4 +218,47 @@ header {
 }
 header .topImage {
   padding: 1%;
+}
+section {
+  width: 100%;
+}
+section h3 {
+  color: #CC0000;
+}
+section p {
+  color: #FFFFFF;
+}
+section div {
+  width: 40%;
+  height: auto;
+  padding: 2%;
+  border-radius: 20px;
+  background: #00000080;
+}
+.tagline {
+  color: #000080;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.tagline div {
+  width: 70%;
+  height: auto;
+  border: 2px solid #DCAAFF;
+  background: #FFFFFF;
+}
+.topSection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+}
+.midSection {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.lowSection {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
 }
