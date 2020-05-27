@@ -4,10 +4,16 @@ header {
 
     .topImage {
         padding: 1%;
+    }
 
+    img {
         @media @tablet {
             width: 98%;
             height: 98%;
+        }
+
+        @media @fablet {
+            margin-top: 1%;
         }
     }
 }
@@ -26,6 +32,15 @@ section {
     div {
         .customDiv(40%, auto, 20px, #000000aa);
         padding: 2%;
+
+        @media @fablet {
+            .customDiv(50%, auto, 20px, #000000aa);
+            padding: 3%;
+        }
+
+        @media @mobile {
+            .customDiv(70%, auto, 20px, #000000aa);
+        }
     }
 }
 
@@ -37,12 +52,21 @@ section {
     div {
         .customDiv(60%, auto, 30px, @white);
         border: 2px solid @pastelpurple;
+
+        @media @fablet {
+            .customDiv(70%, auto, 30px, @white);
+            margin: 5%;
+        }
     }
 }
 
 .topSection {
     .flexJ(row, flex-start);
     padding: 2%;
+
+    @media @mobile {
+        .flexJ(row, center);
+    }
 }
 
 .midSection {
@@ -53,12 +77,30 @@ section {
 .lowSection {
     .flexJ(row, flex-end);
     padding: 2%;
+
+    @media @mobile {
+        .flexJ(row, center);
+    }
 }
 
 .aboutSection {
     .flexJ(row, center);
     div {
         .customDiv(70%, 300px, 50%, #80000080);
+
+        @media @tablet {
+            .customDiv(70%, 350px, 50%, #80000080);
+        }
+
+        @media @fablet {
+            .customDiv(70%, auto, 100px, #80000080);
+            margin: 5%;
+        }
+
+        @media @mobile {
+            .customDiv(70%, auto, 50px, #80000080);
+        }
+
         .flexA(column, center);
         padding: 5% 10%;
     }

@@ -21,16 +21,28 @@
   h2 {
       font-size: 2.5rem;
       font-weight: bold;
+
+      @media @fablet {
+          font-size: 2rem;
+      }
   }
 
   h3 {
       font-size: 2rem;
       font-weight: bold;
+
+      @media @fablet {
+          font-size: 1.5rem;
+      }
   }
 
   p {
       font-size: 1.2rem;
       line-height: 1.5;
+
+      @media @fablet {
+          font-size: 1rem;
+      }
   }
 
   .container {
@@ -41,11 +53,13 @@
 
       @media @tablet {
           width: 800px;
+          background-size: 100% 100%;
       }
 
       @media @fablet {
           width: 500px;
           background-image: url('../images/bgB01.png');
+          background-size: cover;
       }
 
       @media @mobile {
@@ -61,11 +75,13 @@
 
     @media @tablet {
         width: 800px;
+        background-size: 100% 100%;
     }
 
     @media @fablet {
         width: 500px;
         background-image: url('../images/bgB02.png');
+        background-size: cover;
     }
 
     @media @mobile {
