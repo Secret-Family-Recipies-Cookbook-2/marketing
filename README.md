@@ -32,5 +32,8 @@ Created and styled footer in 'index.html'
 ## Updates @ May 26, 2020 2:00 pm
 Created blank 'about.html' page.
 
-## Updates @ May 26, 4:30 pm
+## Updates @ May 26, 2020 4:30 pm
 Added content to 'about' page.
+
+## Updates @ May 26, 2020 5:07 pm
+Started work on @media queries for various sizes of screens

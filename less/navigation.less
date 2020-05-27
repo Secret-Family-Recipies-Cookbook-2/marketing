@@ -1,8 +1,15 @@
 nav {
     width: 100%;
-    display: flex;
+    .flexJ(row, space-between);
     padding: 0 2%;
-    justify-content: space-between;
+
+    @media @fablet {
+        flex-wrap: wrap;
+    }
+
+    @media @mobile {
+        //Working on it
+    }
 
     button {
         width: 160px;
@@ -13,5 +20,23 @@ nav {
         font-size: 2rem;
         background-color: @pastelpurple;
         border-color: @pastelpurple;
+
+        @media @tablet {
+            width: 140px;
+            height: 45px;
+
+            font-size: 1.7rem;
+        }
+
+        @media @fablet {
+            width: 170px;
+            height: 50px;
+
+            font-size: 2rem;
+        }
+
+        @media @mobile {
+            //Working on it
+        }
     }
 }
