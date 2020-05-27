@@ -40,3 +40,6 @@ Started work on @media queries for various sizes of screens
 
 ## Updates @ May 27, 2020 9:45 am
 Finished @media queries for 1000px, 800px, and 500px widths
+
+## Updates @ May 27, 2020 1:00 pm
+Updated links for 'Sign In/Up' buttons
