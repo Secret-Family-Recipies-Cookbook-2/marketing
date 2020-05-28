@@ -250,6 +250,27 @@ p {
     width: 98%;
   }
 }
+.contactContainer {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  background: #F8F9DD;
+}
+@media (max-width: 1000px) {
+  .contactContainer {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .contactContainer {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .contactContainer {
+    width: 98%;
+  }
+}
 nav {
   width: 100%;
   display: flex;
@@ -476,4 +497,127 @@ section div {
 }
 .aboutSection p {
   font-size: 1.4rem;
+}
+.secretTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
+}
+.secretTeam .picsNtitles {
+  width: 80%;
+  height: auto;
+  border-radius: 0;
+  background: inherit;
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .secretTeam .picsNtitles {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    background: inherit;
+  }
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+  }
+}
+.secretTeam .picsNtitles div {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.secretTeam .picsNtitles div img {
+  height: 120px;
+  border-radius: 20px;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles div img {
+    height: 60px;
+    border-radius: 10px;
+  }
+}
+.secretTeam .picsNtitles div p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9A1F40;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles div p {
+    font-size: 1rem;
+    font-weight: none;
+    margin: 0 0 5% 0;
+  }
+}
+.secretTeam .picsNtitles .elJefe {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: inherit;
+  margin: 0;
+  padding: 0;
+}
+.secretTeam .picsNtitles .elJefe img {
+  height: 180px;
+  border-radius: 30px;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles .elJefe img {
+    height: 90px;
+    border-radius: 15px;
+  }
+}
+.secretTeam .picsNtitles .elJefe p {
+  font-size: 2rem;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles .elJefe p {
+    font-size: 1rem;
+    margin: 0 0 5% 0;
+  }
+}
+.messageSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.messageSection div {
+  width: 50%;
+  height: auto;
+  border-radius: 0;
+  background: inherit;
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .messageSection div {
+    width: 96%;
+    height: auto;
+    border-radius: 0;
+    background: inherit;
+    margin: 0;
+  }
+}
+.messageSection div img {
+  height: 60px;
+}
+@media (max-width: 500px) {
+  .messageSection div img {
+    height: 40px;
+  }
 }

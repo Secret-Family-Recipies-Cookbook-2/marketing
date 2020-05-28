@@ -43,3 +43,6 @@ Finished @media queries for 1000px, 800px, and 500px widths
 
 ## Updates @ May 27, 2020 1:00 pm
 Updated links for 'Sign In/Up' buttons
+
+## Updates @ May 28, 2020 2:55 pm
+Created and styled a 'Contact Us' page
