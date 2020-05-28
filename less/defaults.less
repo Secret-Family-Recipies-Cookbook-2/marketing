@@ -1,73 +1,73 @@
 * {
     box-sizing: border-box;
-  }
+}
 
-  html {
+html {
     font-size: 62.5%;
     display: flex;
     justify-content: center;
-  }
+}
 
-  body {
-      font-family: 'Roboto', sans-serif;
-      background-color: @black;
-      height: 100vh;
-  }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: @black;
+    height: 100vh;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-      font-family: @font4;
-  }
+h1, h2, h3, h4, h5, h6 {
+    font-family: @font4;
+}
 
-  h2 {
-      font-size: 2.5rem;
-      font-weight: bold;
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
 
-      @media @fablet {
-          font-size: 2rem;
-      }
-  }
+    @media @fablet {
+        font-size: 2rem;
+    }
+}
 
-  h3 {
-      font-size: 2rem;
-      font-weight: bold;
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
 
-      @media @fablet {
-          font-size: 1.5rem;
-      }
-  }
+    @media @fablet {
+        font-size: 1.5rem;
+    }
+}
 
-  p {
-      font-size: 1.2rem;
-      line-height: 1.5;
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
 
-      @media @fablet {
-          font-size: 1rem;
-      }
-  }
+    @media @fablet {
+        font-size: 1rem;
+    }
+}
 
-  .container {
-      position: relative;
-      width: 1000px;
-      height: 100%;
-      background-image: url('../images/bgA14.png');
+.container {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    background-image: url('../images/bgA14.png');
 
-      @media @tablet {
-          width: 800px;
-          background-size: 100% 100%;
-      }
+    @media @tablet {
+        width: 800px;
+        background-size: 100% 100%;
+    }
 
-      @media @fablet {
-          width: 500px;
-          background-image: url('../images/bgB01.png');
-          background-size: cover;
-      }
+    @media @fablet {
+        width: 500px;
+        background-image: url('../images/bgB01.png');
+        background-size: cover;
+    }
 
-      @media @mobile {
-          width: 98%;
-      }
-  }
+    @media @mobile {
+        width: 98%;
+    }
+}
 
-  .aboutContainer {
+.aboutContainer {
     position: relative;
     width: 1000px;
     height: 100%;
@@ -87,4 +87,23 @@
     @media @mobile {
         width: 98%;
     }
-  }
+}
+
+.contactContainer {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    background: @eggshell;
+
+    @media @tablet {
+        width: 800px;
+    }
+
+    @media @fablet {
+        width: 500px;
+    }
+
+    @media @mobile {
+        width: 98%;
+    }
+}

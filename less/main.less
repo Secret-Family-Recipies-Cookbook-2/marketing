@@ -109,3 +109,103 @@ section {
         font-size: 1.4rem;
     }
 }
+
+.secretTeam {
+    .flexA(column, center);
+    margin: 2% 0;
+
+    .picsNtitles {
+        .customDiv(80%, auto, 0, inherit);
+        margin: 2% 0;
+
+        .flexJ(row, space-between);
+        align-items: center;
+
+        @media @tablet {
+            .customDiv(100%, auto, 0, inherit);
+        }
+
+        @media @fablet {
+            .flexA(column, center);
+            justify-content: none;
+        }
+
+        div {
+            .customDiv(auto, auto, 0, inherit);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+
+            img {
+                height: 120px;
+                border-radius: 20px;
+
+                @media @fablet {
+                    height: 60px;
+                    border-radius: 10px;
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: @redish;
+
+                @media @fablet {
+                    font-size: 1rem;
+                    font-weight: none;
+                    margin: 0 0 5% 0;
+                }
+            }
+        }
+
+        .elJefe {
+            .customDiv(auto, auto, 0, inherit);
+            margin: 0;
+            padding: 0;
+
+            img {
+                height: 180px;
+                border-radius: 30px;
+
+                @media @fablet {
+                    height: 90px;
+                    border-radius: 15px;
+                }
+            }
+
+            p {
+                font-size: 2rem;
+
+                @media @fablet {
+                    font-size: 1rem;
+                    margin: 0 0 5% 0;
+                }
+            }
+        }
+    }
+}
+
+.messageSection {
+    .flexA(column, center);
+
+    div {
+        .customDiv(50%, auto, 0, inherit);
+        margin: 2%;
+
+        @media @fablet {
+            .customDiv(96%, auto, 0, inherit);
+            margin: 0;
+        }
+
+        .flexJ(row, space-between);
+
+        img {
+            height: 60px;
+
+            @media @mobile {
+                height: 40px;
+            }
+        }
+    }
+}
