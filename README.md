@@ -46,3 +46,6 @@ Updated links for 'Sign In/Up' buttons
 
 ## Updates @ May 28, 2020 2:55 pm
 Created and styled a 'Contact Us' page
+
+## Updates @ May 29, 2020 9:20 am
+Remembered that members of this team have names. Also took the time to give team member layout more of a curved look for no real reason.
