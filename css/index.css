@@ -264,6 +264,7 @@ p {
 @media (max-width: 800px) {
   .contactContainer {
     width: 500px;
+    height: 1080px;
   }
 }
 @media (max-width: 500px) {
@@ -552,14 +553,39 @@ section div {
 }
 .secretTeam .picsNtitles div p {
   font-size: 1.2rem;
-  font-weight: bold;
+  line-height: 1.2;
   color: #9A1F40;
 }
 @media (max-width: 800px) {
   .secretTeam .picsNtitles div p {
     font-size: 1rem;
-    font-weight: none;
-    margin: 0 0 5% 0;
+    line-height: 1;
+  }
+}
+.secretTeam .picsNtitles div a {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.secretTeam .picsNtitles div .centerpoint {
+  margin-bottom: 0;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles div .centerpoint {
+    margin-bottom: 10px;
+  }
+}
+.secretTeam .picsNtitles div .midpoint {
+  margin-bottom: 10px;
+}
+.secretTeam .picsNtitles div .endpoint {
+  margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .secretTeam .picsNtitles div .endpoint {
+    margin-bottom: 10px;
   }
 }
 .secretTeam .picsNtitles .elJefe {
@@ -580,13 +606,14 @@ section div {
     border-radius: 15px;
   }
 }
-.secretTeam .picsNtitles .elJefe p {
+.secretTeam .picsNtitles .elJefe p,
+.secretTeam .picsNtitles .elJefe a {
   font-size: 2rem;
 }
 @media (max-width: 800px) {
-  .secretTeam .picsNtitles .elJefe p {
+  .secretTeam .picsNtitles .elJefe p,
+  .secretTeam .picsNtitles .elJefe a {
     font-size: 1rem;
-    margin: 0 0 5% 0;
   }
 }
 .messageSection {
